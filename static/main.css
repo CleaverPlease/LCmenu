@@ -1,0 +1,67 @@
+* {font-family: Helvetica Neue, Arial, sans-serif; }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {float: left;}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {display: inline-block;}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+#LClogo {
+  width: 60%;
+  position: absolute;
+  top: 125px; bottom:0; left: 0; right:0;
+  margin: auto;
+}
+
+h1, table { text-align: center; }
+
+table {
+  border-collapse: collapse;
+  width: 70%;
+  margin: 0 auto 5rem;
+}
+
+th, td { padding: 1.5rem; font-size: 1.3rem; }
+
+tr {background: l#F5F5F5; }
+
+tr:first-child {background: hsla(12, 100%, 40%, 0.5); }
+
+tr:nth-child(even) { background: #DCDCDC; }

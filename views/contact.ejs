@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/static/main.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+    <div id='welcome'>
+      <h1>Contact Us</h1>
+    </div>
+    <ul>
+      <li><a class="active" href="/">Home</a></li>
+      <li><a href="/lunch_menu">Lunch Menu</a></li>
+      <li class="dropdown">
+        <a href="/dinner_menu" class="dropbtn">Dinner Menu</a>
+        <div class="dropdown-content">
+          <a href="/dinner_combo">Dinner Combos</a>
+          <a href="/chef_specials">Chef Specials</a>
+        </div>
+      </li>
+      <li><a href="/contact">Contact Us</a></li>
+    </ul>
+<form class="sumbit" action="thanks" method="post">
+  <input type="text" name="name" value="Name" size='30' ><br>
+  <input type="text" name="email" value="Email" size='30'><br>
+  <textarea name="name"  placeholder="Your Message Here...."rows="8" cols="40"></textarea>
+  <input type="button" name="send" value="SEND">
+</form>
+  </body>
+</html>
